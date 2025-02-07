@@ -10,5 +10,5 @@ public class ScannerDemo {
         a = scanner.nextInt();
         System.out.println("the nume your input is:"+a);
         scanner.close();
-    }   
+    }
 }
