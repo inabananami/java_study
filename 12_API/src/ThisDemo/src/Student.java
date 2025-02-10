@@ -10,4 +10,7 @@ public class Student {
         this.male = male;
         this.point = point;
     }
+    public String GetName() {
+        return name;
+    }
 }
