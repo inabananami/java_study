@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 public class CartDemo {
     public static void main(String[] args) {
-        System.setProperty("file.encoding", "UTF-8");
-        Scanner scanner = new Scanner(System.in, "UTF-8");
         ArrayList<String> Cart = new ArrayList<>();
         String KeyWord;
         Cart.add("Javaの入門");

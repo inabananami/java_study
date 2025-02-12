@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/14_static/14_static.iml" filepath="$PROJECT_DIR$/14_static/14_static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_extend_class/15_extend_class.iml" filepath="$PROJECT_DIR$/15_extend_class/15_extend_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_SpeedKey/SpeedKey/SpeedKey.iml" filepath="$PROJECT_DIR$/2_SpeedKey/SpeedKey/SpeedKey.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_基本的な変数/VariableDemo/VariableDemo.iml" filepath="$PROJECT_DIR$/3_基本的な変数/VariableDemo/VariableDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_study.iml" filepath="$PROJECT_DIR$/.idea/java_study.iml" />
