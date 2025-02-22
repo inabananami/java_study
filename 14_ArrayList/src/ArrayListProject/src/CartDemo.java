@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class CartDemo {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         ArrayList<String> Cart = new ArrayList<>();
         String KeyWord;
         Cart.add("Javaの入門");
