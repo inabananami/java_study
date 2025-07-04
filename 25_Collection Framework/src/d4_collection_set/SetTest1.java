@@ -9,7 +9,6 @@ public class SetTest1 {
         //HashSetを作成した
         //Set<Integer> set = new HashSet<>();
         Set<Integer> set = new LinkedHashSet<>();
-        Set<Integer> set2 = new LinkedHashSet<>();
         set.add(1);
         set.add(2);
         set.add(2);

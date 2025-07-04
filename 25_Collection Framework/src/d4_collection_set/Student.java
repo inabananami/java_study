@@ -1,6 +1,6 @@
 package d4_collection_set;
 
-public class Student {
+public class Student implements Comparable<Student> {
     private String name;
     private int age;
     private double height;
@@ -20,5 +20,14 @@ public class Student {
     }
     public double getHeight() {
         return height;
+    }
+
+    @Override
+    public String toString() {
+        return "Student [name=" + name + ", age=" + age + ", height=" + height + "]";
+    }
+    @Override
+    public int compareTo(Student o) {
+        return this.age - o.age;
     }
 }

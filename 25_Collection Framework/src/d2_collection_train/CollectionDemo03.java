@@ -14,7 +14,7 @@ public class CollectionDemo03 {
         System.out.println(c);
 
         //イテレータ
-        //lambda表現式で走査する
+        //ラムダ式で走査する
         c.forEach(new Consumer<String>() {
             //伝統な書き方
             @Override
