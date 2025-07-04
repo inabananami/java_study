@@ -16,10 +16,16 @@ public class CollectionDemo03 {
         //イテレータ
         //lambda表現式で走査する
         c.forEach(new Consumer<String>() {
+            //伝統な書き方
             @Override
             public void accept(String s) {
-                System.out.print(" " + s + " ");
+                System.out.print(s);
             }
         });
+        //簡単化１
+        c.forEach(s -> System.out.println(s));
+
+        //もっと簡単化
+        c.forEach(System.out::println);
     }
 }
